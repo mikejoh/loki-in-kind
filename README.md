@@ -52,3 +52,8 @@ curl -vv -H 'Host: loki.local' http://localhost/api/prom/label
 ```
 curl -vv -H 'Host: loki.local' http://localhost/api/prom/label
 ```
+
+## Links:
+* https://kubernetes.github.io/ingress-nginx/examples/auth/basic/
+* https://github.com/grafana/helm-charts/tree/main/charts/loki
+* https://grafana.com/docs/loki/latest/installation/helm/
