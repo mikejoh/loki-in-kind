@@ -1,4 +1,4 @@
-# Loki in Kind
+# Basic Auth with Nginx Ingress and Loki running in Kind
 
 1. Download the latest version of Loki (`0.10.0` as of writing this):
 ```
