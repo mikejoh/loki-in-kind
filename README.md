@@ -50,7 +50,7 @@ curl -vv -H 'Host: loki.local' http://localhost/api/prom/label
 
 10. Using `curl` try to reach Loki via the Nginx Ingress using Basic Auth, should return `{"values":["__name__"]}`:
 ```
-curl -vv -H 'Host: loki.local' http://localhost/api/prom/label
+curl -vv -H 'Host: loki.local' -u loki:secret http://localhost/api/prom/label
 ```
 
 ## Links:
